@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  background-color: #cfd8dc;
+  font-weight: bold;
+}
+
+.container .card-body {
+  text-align: start;
+}
+
+#serch-block {
+  display: inline-block;
+  width: 50%;
+}
+
+#searchInput {
+  width: 84%;
+  border: 1px solid black;
+}
+
+.nav-link,
+.navbar-brand {
+  font-size: large;
+  color: #9db6cb !important;
+  &:hover {
+    color: #dfe2e9 !important;
+    background-color: #24080a;
+    border: 1px solid #24080a;
+    border-radius: 10px;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background: black !important;
+  margin: 0;
+  padding: 0;
+}
