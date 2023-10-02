@@ -23,7 +23,7 @@ function displayFavourites() {
                 <div class="card-body">
                     <h5 class="card-title">${movie.Title}</h5>
                     <button class="btn btn-danger btn-sm remove-button" data-imdbid="${movie.imdbID}">Remove from favourite list</button>
-                    <a href="movie.html?id=${movie.imdbID}" class="btn btn-secondary btn-sm more-button">Details</a>
+                    <a href="movieDetail.html?id=${movie.imdbID}" class="btn btn-secondary btn-sm more-button">Details</a>
                 </div>
             `;
             favouritesListContainer.appendChild(movieCard);
